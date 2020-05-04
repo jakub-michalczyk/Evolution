@@ -133,7 +133,8 @@ body, html{
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    padding: 0 10px;
+    margin:0 10px;
+    font-size: 60px;
 }
 
 #finalBox h1{
@@ -141,13 +142,12 @@ body, html{
 }
 
 #finalBox h2{
+    margin:0;
+    padding:0;
     font-size: 60px;
 }
 
 #finalBox h1, #finalBox h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     color:#fff;

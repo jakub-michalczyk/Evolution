@@ -2,7 +2,7 @@
   "name": "evolution",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
     "dev": "webpack --watch --mode=development",
     "prod": "webpack --mode=production"
