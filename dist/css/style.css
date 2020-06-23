@@ -14,6 +14,31 @@
     }
 }
 
+@media only screen and (max-width: 812px) {
+    #blobInfoBox{
+        transform: translate(-50%, -50%) !important;
+        top:50% !important;
+        left:50% !important;
+        width:75% !important;
+        max-height: 100% !important;
+    }
+}
+
+@media (max-width: 812px) and (orientation: landscape){
+    #blobInfoBox{
+        transform: translate(-50%, -50%) !important;
+        top:50% !important;
+        left:50% !important;
+        width:75% !important;
+        max-height: 100% !important;
+    }
+    #blobInfoBox div{
+        padding: 0 !important;
+        margin:0.5% 0 !important;
+    }
+}
+
+
 body, html{
     margin:0;
     width: 100%;
